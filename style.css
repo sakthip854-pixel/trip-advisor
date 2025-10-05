@@ -364,3 +364,14 @@ body {
     padding: 0 10px;
   }
 }
+@media screen and (max-width: 600px) {
+  .heading {
+    display: none;
+  }
+  .categories {
+    display: none;
+  }
+  .inspiration-card {
+    display: none;
+  }
+}
