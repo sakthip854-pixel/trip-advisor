@@ -237,11 +237,12 @@ body {
   gap: 20px;
   overflow-x: scroll;
   padding: 10px 0;
+  -webkit-overflow-scrolling: touch;
 }
-.scroll-container {
+.scroll-container::-webkit-scrollbar {
   height: 8px;
 }
-.scroll-container {
+.scroll-container::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 10px;
 }
